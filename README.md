@@ -1,6 +1,17 @@
 # ENA_validation
 Script to pre-screen gff3 for validation
 
+
+# **Pre-requisites**
+
+Python - 3.12 # Other versions may work but it has been tested with python 3.12
+
+Python Libraries:
+- collections
+- argparse
+- os
+
+
 # **Installation**
 
 This is a Python script and so once the script has been downloaded will run in any compatible python environment. **NB** If runnning on EI cluster the correct python environment will automatically be selected. If running outside of the institute then the shebang at the top of the python script (the first line) will have to be altered to reflect your python environment. A list of dependencies will follow shortly.
